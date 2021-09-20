@@ -9,6 +9,7 @@ namespace Calculation
             Console.WriteLine("Welcome to Maths Calculation");
             Calculation calc = new Calculation();
             Console.WriteLine("Addition : " + calc.Add(3, 7));
+            calc.Sub(6, 3);
             Console.ReadLine();
         }
     }
